@@ -1,0 +1,11 @@
+version: '3.7'
+services:
+  lambda:
+    build:
+      context: .
+      dockerfile: dev.dockerfile
+    container_name: lambda_mine
+    tty: true
+    stdin_open: true
+    volumes:
+      - .:/app

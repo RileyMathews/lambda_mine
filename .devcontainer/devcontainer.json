@@ -1,0 +1,12 @@
+{
+  "name": "lambda_mine",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "lambda",
+  "workspaceFolder": "/app",
+  "extensions": [
+    "kaiwood.endwise",
+    "castwide.solargraph",
+    "noku.rails-run-spec-vscode",
+    "misogi.ruby-rubocop"
+  ]
+}
