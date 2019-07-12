@@ -14,8 +14,6 @@ Gem::Specification.new do |spec|
   spec.homepage      = 'https://github.com/RileyMathews/lambda_mine'
   spec.license       = 'MIT'
 
-  spec.metadata['allowed_push_host'] = "https://guides.rubygems.org"
-
   spec.metadata['homepage_uri'] = spec.homepage
   spec.metadata['source_code_uri'] = 'https://github.com/RileyMathews/lambda_mine'
   spec.metadata['changelog_uri'] = 'https://github.com/RileyMathews/lambda_mine/changelog.md'
