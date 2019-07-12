@@ -1,4 +1,6 @@
-require "lambda_mine/version"
+# frozen_string_literal: true
+
+require 'lambda_mine/version'
 
 module LambdaMine
   class Error < StandardError; end
