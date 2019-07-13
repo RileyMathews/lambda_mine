@@ -8,5 +8,8 @@
     "castwide.solargraph",
     "noku.rails-run-spec-vscode",
     "misogi.ruby-rubocop"
-  ]
+  ],
+  "settings": {
+    "solargraph.useBundler": true
+  }
 }

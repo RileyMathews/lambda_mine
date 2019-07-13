@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    lambda_mine (0.0.1.pre)
+    lambda_mine (0.0.2.pre)
 
 GEM
   remote: https://rubygems.org/

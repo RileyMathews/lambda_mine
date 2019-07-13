@@ -3,6 +3,7 @@
 require 'lambda_mine/version'
 
 module LambdaMine
-  class Error < StandardError; end
-  # Your code goes here...
+  def call(_event, _context)
+    'hello from lambda mine!'
+  end
 end
