@@ -3,7 +3,9 @@
 require 'lambda_mine/version'
 
 module LambdaMine
-  def call(_event, _context)
-    'hello from lambda mine!'
+  class Handler
+    def self.process(_event, _context)
+      'hello from lambda mine!'
+    end
   end
 end
