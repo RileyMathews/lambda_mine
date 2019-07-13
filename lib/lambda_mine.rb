@@ -4,7 +4,7 @@ require 'lambda_mine/version'
 
 module LambdaMine
   class Handler
-    def self.process(_event:, _context:)
+    def self.process(event:, context:)
       'hello from lambda mine!'
     end
   end
